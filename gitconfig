@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = gdesa.317@gmail.com
+	name = Guillaume DeSa
