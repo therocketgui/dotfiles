@@ -10,3 +10,12 @@ alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' &
 
 # Keep ~/.local/bin on PATH (Claude Code CLI lives here)
 export PATH="$HOME/.local/bin:$PATH"
+
+# PostgreSQL 15 (keg-only) on PATH
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
+# Claude Code shortcuts (dangerously skip permissions)
+alias cdp='claude --dangerously-skip-permissions'
+alias cdpr='claude --dangerously-skip-permissions --resume'
+alias cdpc='claude --dangerously-skip-permissions --chrome'
+alias cdprc='claude --dangerously-skip-permissions --resume --chrome'
